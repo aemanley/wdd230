@@ -68,3 +68,8 @@ footer {
   color: white;
   font-family: "Akshar", sans-serif;
 }
+
+#updateddate,.updated{
+  color: yellow;
+
+}

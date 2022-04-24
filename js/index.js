@@ -21,13 +21,17 @@ let months = [
   "November",
   "December",
 ];
-const d = new Date();
+
+
+let d = new Date();
 let dayName = daysofweek[d.getDay()];
 let monthName = months[d.getMonth()];
 let year = d.getFullYear();
+let fulldate = dayName + "," + monthName + " " +d.getDate()+ ","+ year;
 
 
-const fulldate = dayName + "," + monthName + "," + year;
+document.getElementById("updateddate").textContent = fulldate;
 
 
-document.getElementById("updateddate").innerHTML = fulldate;
+
+document.getElementById("year").textContent = year;
