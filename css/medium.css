@@ -1,0 +1,14 @@
+@media (min-width: 32.5em){
+    
+    .memeh {
+        font-family: "Akshar", sans-serif;
+        color: red;
+        font-size: 3rem;
+      }
+
+      .memeh {
+        font-family: "Akshar", sans-serif;
+        color: white;
+        font-size:4rem;
+      }
+}
