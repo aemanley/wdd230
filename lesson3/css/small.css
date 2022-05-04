@@ -2,5 +2,8 @@
     ul.list{
         display: block;
     }
+.palette{
+    width: 300px;
+}
 
 }
