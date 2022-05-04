@@ -1,0 +1,6 @@
+@media (max-width:32.5em) {
+    ul.list{
+        display: block;
+    }
+
+}
