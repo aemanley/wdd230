@@ -17,12 +17,14 @@ const btn=document.createElement('button')
 li.appendChild(text);
 text.textContent=scripture;
 li.appendChild(btn);
-btn.textContent= 'delete'
+btn.textContent= 'X'
 list.appendChild(li);
 
 
 btn.addEventListener('click', (e) => {
     list.removeChild(li);
+    
+
 })
 
 input.focus()
