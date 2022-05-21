@@ -1,72 +1,122 @@
-@media (min-width:1000px){
-    .page {
-        max-width: 1000px;
-        margin: 0 auto;
-      }
+@media (min-width: 1000px) {
+  .page {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
 
-      main{
-        display: grid;
-        grid-template-columns: 1fr 2fr 1fr;
-    }
+  header {
+    grid-template-columns: auto;
+  }
 
-.placeholderweather{
-   grid-row: 2;
-   grid-column: 1
-}
-
-.placeholdernews{
-    grid-row: 3;
-grid-column: 2;
-
-}
-.placeholdersp2{
+  nav {
     grid-column: 3;
+    background-color: #a2d4f2;
+  }
+  #placeholder {
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 10px;
+  }
+
+  .placeholderweather {
     grid-row: 2;
-}
+    grid-column: 1;
+  }
+  .placeholderhero {
+    grid-row: 1/3;
+    grid-column: 2;
+    height: auto;
+  }
+  .placeholderhero p {
+    font-size: 40px;
+  }
+  .placeholderjoin {
+    grid-row: 3;
+    grid-column: 1;
+    display: block;
+  }
+  .placeholderjoin button {
+    padding-left: 45px;
+    padding-right: 45px;
+   margin-top: 10px;
+    margin-left: 12px;
+  }
 
-.placeholdersp1{
-    grid-column: 3;
-    grid-row: 1;
-}
-.placeholderevent{
+  .placeholdernews {
+    grid-row: 3;
+    grid-column: 2;
+  }
+
+
+  .placeholderevent {
     grid-row: 1;
     grid-column: 1;
-}
-.placeholderhero{
-   height:auto ;
-    grid-row: 1 / 3;
-}
+  }
 
+  footer img {
+    margin-left: 150px;
+    width: 120px;
+  }
+  .basicinfo {
+    margin-right: 100px;
+    margin-top: 40px;
+  }
 
+  footer div {
+    grid-row: 2;
+    grid-column: 1 / 3;
+    justify-self: center;
+  }
 
+  .personalinfo {
+    grid-row: 3;
+    grid-column: 1 / 5;
+    display: flex;
+    padding: 10px;
+    margin-left: 10px;
+    gap: 5px;
+    justify-self: center;
+  }
 
+  .box-wrapper {
+    display: flex;
+    flex-direction: column;
+    grid-row: 1 / 4;
+  }
+  .box1 {
+    flex: 1;
+  }
 
+  .box2 {
+    flex: 2;
+  }
+  .box3 {
+    flex: 3;
+  }
 
+  nav button {
+    display: none;
+  }
 
+  nav ul#primarynav {
+    display: flex;
+    margin-left: 2vw;
+    border-left: 1px solid rgba(0, 0, 0, 0.3);
+  }
 
+  nav ul li a {
+    border: none;
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+  }
 
-      footer img{
-          margin-left: 150px;
-          width: 120px;
-      }
-      .basicinfo{
-          margin-right: 100px;
-          margin-top: 40px;
-      }
+  header picture {
+    grid-row: 1;
+    grid-column: 4;
+  }
 
-      footer div{
-        grid-row: 2;
-        grid-column: 1 / 3;
-        justify-self: center;
-    }
-
-    .personalinfo{
-        grid-row: 3;
-        grid-column:1 / 5;
-        display: flex;
-        padding: 10px;
-        margin-left: 10px;
-        gap: 5px;
-        justify-self: center;
-    }
+  .mediumsps {
+    display: none;
+  }
+  .largesps {
+    display: block;
+  }
 }
