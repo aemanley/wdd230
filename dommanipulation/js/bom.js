@@ -3,7 +3,11 @@ const list = document.querySelector('ul');
       const button = document.querySelector('button');
 
       button.addEventListener('click', (e) => {
-         
+
+        let messages =[]
+        if (input.value === '' ){ messages('Scripture is required')}
+       
+        
           const scripture = input.value;
           input.value = '';
         
