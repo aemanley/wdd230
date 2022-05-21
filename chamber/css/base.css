@@ -148,7 +148,7 @@ footer h2 {
  
 }
 
-@media(max-width=300px){
+@media (max-width=300px){
   .placeholderjoin{
     display: none;
   }
