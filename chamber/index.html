@@ -52,12 +52,14 @@
         <main>
            <div id="placeholder">
             <section class="placeholderhero">
-                <figure>    
-            <img  src="images/large.jpg" alt="Cortes"
-                srcset="images/small1.jpg 650w , images/medium1.jpg 850w ,images/large 1000px">
+               <picture>  
+                   <source srcset="images/large1.jpg" media="(min-width: 1000px)">
+                   <source srcset="images/medium1.jpg" media="(min-width: 650px)">
+                   <source srcset="images/small1.jpg" media="(min-width:100px)">
+                
+                   <img src="images/wdd230-org.jpg" alt="picture original">   
+          </picture>
 
-               
-            </figure>
                 <p>Welcome To Cortes Area</p>
             </section>
             <section class="placeholderevent">
