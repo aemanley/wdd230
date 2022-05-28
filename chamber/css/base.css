@@ -99,7 +99,7 @@ main {
 .placeholderhero {
   border-style: solid;
   border-color: gray;
-  height: 200px;
+  
   margin-bottom: 10px;
   margin-top: 10px;
   background-color: rgb(239, 235, 235);
@@ -188,13 +188,9 @@ footer h2 {
  
 }
 
-
-
-
-
 .box-wrapper {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   background-color:rgb(239, 235, 235);
 }
 .box1 {

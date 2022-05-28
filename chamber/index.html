@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
     <link rel="shortcut icon" href="images/favicon.ico">
+    
 
     <title>Cortes Area Chamber of Commerce</title>
 
@@ -17,10 +18,9 @@
 
 <body>
     <div class="page">
-      
-        <header >
-            <!-- <div id="banner">"🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m."</div>-->
+        <div id="banner">"🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m."</div>
 
+        <header >
             <img class="logo" src="images/3669397_business_ic_icon.png" alt="logo" width="50">
             <h1> Cortes Area <br>Chamber of Commerce</h1>
             <picture>
@@ -69,6 +69,10 @@
             </section>
             <section class="placeholderweather">
               <h2>Weather</h2>
+              <img src="" alt="">
+              <p>Temperature: <span id="temp">40</span>&#176;F</p>
+              <p>Wind Speed:<span id="windSpeed">15</span>mph</p>
+              <p>WindChill: <span id="result"></span></p>
             </section>
             <section class="placeholdernews">
                 <h2>News release</h2>
@@ -125,6 +129,7 @@
         </footer>
 
         <script src="js/chamber.js"></script>
+        <script src="js/windchill.js"></script>
 </body>
 </div>
 

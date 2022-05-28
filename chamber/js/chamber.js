@@ -20,16 +20,11 @@ const x= document.getElementById('hamburgerbtn')
 x.onclick= toggleMenu;
 
 
-
-/*
-function displaybanner(){
-	banner= documentgetElementById('banner')
-
-	const banner = new Date();
-const invitation= banner.getDay();
-
-if( invitation == 2 || invitation == 3){
- banner.style.display='block'
+const dayofweek= new Date().getDay();
+let bannernot= document.getElementById('banner');
+if (dayofweek == 1 || dayofweek == 2){
+	bannernot.style.display= "block"
 }
+else{
+	bannernot.style.display= 'none'
 }
-*/

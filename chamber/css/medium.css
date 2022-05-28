@@ -29,7 +29,11 @@
     font-size: 30px;
   }
   .bow-wrapper {
-    grid-row: 6;
+    display: flex;
+    flex-direction: row;
+  
+  
+
   }
   .placeholderevent {
     grid-row: 5;
