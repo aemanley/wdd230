@@ -15,17 +15,9 @@ const observer=new IntersectionObserver((items, observer)=>{
     }
     });
 });
-);
+  };
 imagesToLoad.forEach((img)=> {
     observer.observe (img);
 });
-
-}
-else{
-    imagesToLoad.forEach((img) =>{
-        loadImages(img);
-    });
-}
-
 
 
