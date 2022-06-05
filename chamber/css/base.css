@@ -99,7 +99,6 @@ main {
 .placeholderhero {
   border-style: solid;
   border-color: gray;
-  
   margin-bottom: 10px;
   margin-top: 10px;
   background-color: rgb(239, 235, 235);
@@ -225,3 +224,15 @@ footer h2 {
 }
 
 
+img[data-src] {
+  filter: blur(0.2em);
+}
+
+ img {
+  filter: blur(0em);
+  transition: filter 0.5s;
+}
+
+img.demoimg:hover{
+  box-shadow: 0 0 40px #333;
+}
