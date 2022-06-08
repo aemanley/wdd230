@@ -236,3 +236,64 @@ img[data-src] {
 img.demoimg:hover{
   box-shadow: 0 0 40px #333;
 }
+
+
+
+/*DISCOVER PAGE */ 
+
+section.discover{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+p.discoverp{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+h1.discoverh1{
+  text-align: center;
+  margin: 60px;
+  position: absolute;
+  flex: 1;
+
+}
+div.spsbanner{
+  background-color: aquamarine;
+  padding: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+section.demos{
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+div.demo{
+  
+  display: flex;
+  flex-direction: column;
+}
+
+
+h2.subtitle{
+ grid-column: 1;
+ padding: 20px;
+}
+
+p.demoinfo{
+ grid-column: 1;
+ padding-left: 20px;
+ 
+}
+img.demoimg{
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 20px;
+
+}

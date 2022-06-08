@@ -119,13 +119,13 @@
   .largesps {
     display: block;
   }
-}
+
 
 /* discover page css*/
 
 section.discover{
-  display: flex;
-  position: relative;
+ 
+ 
 }
 h1.discoverh1{
   text-align: center;
@@ -168,4 +168,6 @@ p.demoinfo{
 img.demoimg{
   grid-column: 2;
   grid-row: 1/3;
+}
+
 }

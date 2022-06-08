@@ -5,14 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Cortes Area Chamber of Commerce Home Page">
+    <meta name="description" content="Cortes Area Chamber of Commerce Discover Page">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
     <link rel="shortcut icon" href="images/favicon.ico">
 
 
-    <title>Cortes Area Chamber of Commerce</title>
+    <title>Cortes Area Chamber of Commerce Discover Page</title>
 
 </head>
 
@@ -53,9 +53,15 @@
 
             <section class="discover">
                 <h1 class="discoverh1"> Discover San Pedro Sula, Cortes </h1> <!-- left-->
-                <img src="images/monumento.jpg" alt="Monument Street" width="500">
+                <picture>  
+                    <source srcset="images/monumentolarge.jpg" media="(min-width: 1000px)">
+                    <source srcset="images/monumentomedium.jpg" media="(min-width: 650px)">
+                    <source srcset="images/monumentosmall.jpg" media="(min-width:100px)">
+                    <img class="discoverimg" src="images/monumento.jpg"  alt="Monument Street">
+                </picture>
+               
                 <!--right-->
-                <p>San Pedro Sula es una ciudad con un amplio patrimonio cultural. Es una ciudad de gente alegre y
+                <p class="discoverp">San Pedro Sula es una ciudad con un amplio patrimonio cultural. Es una ciudad de gente alegre y
                     jovial, una ciudad cargada de contrastes, sabores, colores y mucho amor por la cultura
                     Es la segunda ciudad más grande del centroamericano estado de Honduras, ubicado en la zona ancha del
                     istmo que une América Norte y Sur.</p>
@@ -148,7 +154,7 @@
         <script src="js/chamber.js"></script>
         <script src="js/windchill.js"></script>
         
-<script src="js/chamber.js"></script>
+
 </body>
 </div>
 
