@@ -29,23 +29,6 @@ images.forEach((image) => {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 document.querySelector('#updated').textContent=`Last updated: ${document.lastModified}`
 
 
@@ -74,8 +57,7 @@ if (dayofweek == 1 || dayofweek == 2){
 	bannernot.style.display= "block"
 }
 else{
-	bannernot.style.display= 'none'
+	bannernot.style.display="none"
 }
-
 
 
