@@ -61,3 +61,7 @@ else{
 }
 
 
+// directory page 
+
+const requestURL = 'data.json';
+const cards = document.querySelector('.cards');
