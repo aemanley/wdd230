@@ -63,7 +63,7 @@ else{
 
 // directory page 
 
-const requestURL = '   ';
+const requestURL = 'https://aemanley.github.io/wdd230/chamber/data.json';
 const cards = document.querySelector('.cards');
 
 
@@ -89,9 +89,9 @@ function buildBusinessCards(data){
 
     
     h2.innerHTML = `${business.name}`;
-p.innerHTML = `Location of Birth : ${business.adress} ${business.phonenumber} ${business.membershiplevel}`;
-url.innerHTML = `${business.websiteurl}`
-img.setAttribute('src', prophet.imageurl);
+p.innerHTML = `${business.adress} ${business.phonenumber} ${business.membershiplevel}`;
+url.innerHTML = `${business.websiteurl}`;
+img.setAttribute('src', business.imageurl);
 
 
 
