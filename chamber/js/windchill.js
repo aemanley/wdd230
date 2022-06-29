@@ -17,7 +17,7 @@ function getwindchill(temp, windspeed){
 document.getElementById("result").textContent= windChill;
 
 
-/* it does noy output the windchill, what I am missing? */
+/* it does not output the windchill, what I am missing? */
 
 
 

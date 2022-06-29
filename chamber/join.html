@@ -31,9 +31,10 @@
             <nav>
                 <button id="hamburgerbtn"><span>&#9776;</span><span>x</span></button>
                 <ul id="primarynav">
+                    <li> <a href="index.html">Home</a></li>
                     <li> <a href="discover.html">Discover</a></li>
-                    <li> <a href="#">Directory</a></li>
-                    <li> <a href="join.html">Join</a></li>
+                    <li> <a href="directory.html">Directory</a></li>
+                    <li> <a href="#">Join</a></li>
                     <li> <a href="#">Contact</a></li>
                 </ul>
             </nav>
@@ -45,69 +46,74 @@
 
 
         <main>
-<section class="form">
-            <form action="thankyou.html" method="get">
-<section class="newform">
-                <label for="fname">First name:</label><br>
-                <input type="text" id="fname" name="fname" required><br>
+            <section class="form">
+                <form action="thankyou.html" method="get">
+                    <section class="newform">
+                        <label for="fname">First name:</label><br>
+                        <input type="text" id="fname" name="fname" required><br>
 
-                <label for="lname">Last name:</label><br>
-                <input type="text" id="lname" name="lname" required><br>
+                        <label for="lname">Last name:</label><br>
+                        <input type="text" id="lname" name="lname" required><br>
 
-                <label for="bposition">Business Position Title:</label><br>
-                <input type="text" id="bposition" name="bposition" pattern="[a-zA-Z \- \s] {7}" title="Accepts alpha characters, hyphens, and spaces with a minimum of seven characters"><br>
-                <!--Business position title
+                        <label for="bposition">Business Position Title:</label><br>
+                        <input type="text" id="bposition" name="bposition" pattern="[a-zA-Z \- \s] {7}"
+                            title="Accepts alpha characters, hyphens, and spaces with a minimum of seven characters"><br>
+                        <!--Business position title
                 I am missing the java  -->
-                <label for="email">Email:</label><br>
-                <input type="email" id="email" name="email" placeholder="business@gmail.com" required><br>
+                        <label for="email">Email:</label><br>
+                        <input type="email" id="email" name="email" placeholder="business@gmail.com" required><br>
 
-                <label for="cphone">Cell Phone Number:</label><br>
-                <input type="tel" id="cphone" name="cphone" required><br>
+                        <label for="cphone">Cell Phone Number:</label><br>
+                        <input type="tel" id="cphone" name="cphone" required><br>
 
-                <label for="bname">Business Name:</label><br>
-                <input type="text" id="bname" name="bname"  required><br>
-         
-                <label for="memberships">Membership Level</label><br>
-                <select name="membership" id="membership">
-                    <option value="select">Select a membership</option>
-                    <option value="NP Membership ">NP Membership </option>
-                    <option value="bmembership">Bronze Membership</option>
-                    <option value="smembership">Silver Membership</option>
-                    <option value="gmembership">Gold Membership</option>
-                </select> <br>
-                <!-- I am missing this Membership level benefits should be displayed to the side of the form -->
-                <label for="bdescription">Business Description:</label><br>
-                <input type="text" id="bdescription" name="bdescription"
-                    required><br>
+                        <label for="bname">Business Name:</label><br>
+                        <input type="text" id="bname" name="bname" required><br>
 
-                    <input type="hidden" id="htimedate" name="hiddenTimeDate" value="3487">
+                        <label for="memberships">Membership Level</label><br>
+                        <select name="membership" id="membership">
+                            <option value="select">Select a membership</option>
+                            <option value="NP Membership ">NP Membership </option>
+                            <option value="bmembership">Bronze Membership</option>
+                            <option value="smembership">Silver Membership</option>
+                            <option value="gmembership">Gold Membership</option>
+                        </select> <br>
+                        <!-- I am missing this Membership level benefits should be displayed to the side of the form -->
+                        <label for="bdescription">Business Description:</label><br>
+                        <input type="text" id="bdescription" name="bdescription" required><br>
 
-                <input class="button" type="submit" value="Submit">
-            </section>
-            </form>
+                        <input type="hidden" id="htimedate" name="hiddenTimeDate" value="3487">
 
-            <section class="membershipslevels">
-                <h2>Membership Levels and Benefits</h2>
-                <h3>Non Profit Membership</h3>
-                <p>Free <br>
-                    Only for solopreneurs and small non-profits seeking networking access to Chamber programming. <br>
-                    One representative is registered as a Chamber member. <br>
-                    Join at this level if you want to participate in Chamber activities but don’t need to promote your business via our marketing programs.</p>
+                        <input class="button" type="submit" value="Submit">
+                    </section>
+                </form>
+
+                <section class="membershipslevels">
+                    <h2>Membership Levels and Benefits</h2>
+                    <h3>Non Profit Membership</h3>
+                    <p>Free <br>
+                        Only for solopreneurs and small non-profits seeking networking access to Chamber programming.
+                        <br>
+                        One representative is registered as a Chamber member. <br>
+                        Join at this level if you want to participate in Chamber activities but don’t need to promote
+                        your business via our marketing programs.</p>
                     <h3>Bronze Membership</h3>
                     <p>$450/year <br>
-                        For small to medium-sized businesses and non-profit organizations seeking Chamber access AND marketing and promotional exposure.<br>
-                         Join at this level if you want to use Chamber marketing programs to promote your business.<br>
-                          Up to three representatives or employees may be registered as members.</p>
+                        For small to medium-sized businesses and non-profit organizations seeking Chamber access AND
+                        marketing and promotional exposure.<br>
+                        Join at this level if you want to use Chamber marketing programs to promote your business.<br>
+                        Up to three representatives or employees may be registered as members.</p>
                     <h3>Silver Membership</h3>
                     <p>$1,200/year <br>
-                        Made for medium to large companies and non-profit organizations seeking a higher profile opportunity to market and demonstrate investment in the Superior community.<br>
-                         Up to five representatives or employees may be registered as members.</p>
+                        Made for medium to large companies and non-profit organizations seeking a higher profile
+                        opportunity to market and demonstrate investment in the Superior community.<br>
+                        Up to five representatives or employees may be registered as members.</p>
                     <h3>Gold Membership</h3>
                     <p>$3,250/year <br>
-                        Our top membership level provides the highest visibility and indication of community investment.<br>
-                         Premier access and influence. Up to 10 individuals may be registered as representatives.</p>
+                        Our top membership level provides the highest visibility and indication of community
+                        investment.<br>
+                        Premier access and influence. Up to 10 individuals may be registered as representatives.</p>
+                </section>
             </section>
-        </section>
         </main>
 
 

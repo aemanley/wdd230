@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/large.css">
     <link rel="shortcut icon" href="images/favicon.ico">
 
-    
+
 
     <title>Cortes Area Chamber of Commerce</title>
 
@@ -21,21 +21,23 @@
     <div class="page">
         <div id="banner">"🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m."</div>
 
-        <header >
+        <header>
             <img class="logo" src="images/3669397_business_ic_icon.png" alt="logo" width="50">
             <h1> Cortes Area <br>Chamber of Commerce</h1>
             <picture>
-               <a href="https://www.facebook.com/"><img src="images/faceicon.png" alt="facebook icon" width="25" ></a> 
-                <a href="https://www.instagram.com/"><img src="images/instaicon.png" alt="instagram icon" width="25"></a>
+                <a href="https://www.facebook.com/"><img src="images/faceicon.png" alt="facebook icon" width="25"></a>
+                <a href="https://www.instagram.com/"><img src="images/instaicon.png" alt="instagram icon"
+                        width="25"></a>
             </picture>
 
 
             <nav>
                 <button id="hamburgerbtn"><span>&#9776;</span><span>x</span></button>
                 <ul id="primarynav">
+                    <li> <a href="index.html">Home</a></li>
                     <li> <a href="discover.html">Discover</a></li>
-                    <li> <a href="#">Directory</a></li>
-                    <li> <a href="#">Join</a></li>
+                    <li> <a href="directory.html">Directory</a></li>
+                    <li> <a href="join.html">Join</a></li>
                     <li> <a href="#">Contact</a></li>
                 </ul>
             </nav>
@@ -51,55 +53,65 @@
 
 
         <main>
-           <div id="placeholder">
-            <section class="placeholderhero">
-               <picture>  
-                   <source srcset="images/large1.jpg" media="(min-width: 1000px)">
-                   <source srcset="images/medium1.jpg" media="(min-width: 650px)">
-                   <source srcset="images/small1.jpg" media="(min-width:100px)">
-                
-                   <img src="images/wdd230-org.jpg" alt="picture original">   
-          </picture>
+            <div id="placeholder">
+                <section class="placeholderhero">
+                    <picture>
+                        <source srcset="images/spslarge.jpg" media="(min-width: 1000px)">
+                        <source srcset="images/sssm.jpg" media="(min-width: 650px)">
+                        <source srcset="images/ssss.jpg" media="(min-width:100px)">
 
-                <p>Welcome To Cortes Area</p>
-            </section>
-            <section class="placeholderevent">
-               <h2>Event</h2>
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
-                 Reprehenderit nam quod voluptates non minus.</p>
-            </section>
-            <section class="placeholderweather">
-              <h2>Weather</h2>
-              <img src="" alt="">
-              <p>Temperature: <span id="temp">40</span>&#176;F</p>
-              <p>Wind Speed:<span id="windSpeed">15</span>mph</p>
-              <p>WindChill: <span id="result"></span></p>
-            </section>
-            <section class="placeholdernews">
-                <h2>News release</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.  <br>
-                     Facere exercitationem veniam explicabo debitis praesentium blanditiis placeat temporibus error! <br>
-                      Architecto delectus eligendi dolorem harum cupiditate voluptatem omnis assumenda ad. Odit, officiis.</p>
-            </section>
-
-            <div class="box-wrapper">
-                <section class="box1">
-                    <p>spotlight1</p>
+                        <img src="images/Catedral.jpg" alt="picture original">
+                    </picture>
+                    <p>Welcome To Cortes Area</p>
                 </section>
-                <section class="box2">
-                    <p>spotlight2</p>
+                <section class="placeholderevent">
+                    <h2>Event</h2>
+                    <img class="bazar" src="images/logoBazar.png" alt="Logo Bazar del Sabado" width="100"><br>
+                    <p>Every Saturday from 9:00 am –19:00 pm support small entrepreneurs.</p>
                 </section>
-                <section class="box3">
-                    <p>spotlight3</p>
-                </section>
-       </div>
 
 
-            <section class="placeholderjoin">
-                <button>Join us</button>
-                <p>Discover how to join and be part of this family.</p>
-            </section>
-        </div>
+                <section class="placeholderweather">
+                    <h2>Weather</h2>
+                    <p>Temperature is <span id="current-temp"></span> &deg;F</p>
+                    <p>Current condition is <span id="current-condition"></span></p>
+                    <p>Wind Speed is <span id="windsp"></span>mph</p>
+                    <p>Wind Chill is <span id="result"></span> </p>
+                    <figure>
+<img src="https://openweathermap.org" alt="broken clouds" id="weather-icon"></img>
+                       
+                        <figcaption></figcaption>
+                    </figure>
+                </section>
+                <section class="placeholdernews">
+                    <h2>News release</h2>
+                    <img src="images/bazar.jpg" alt="Bazar Stand" width="200">
+                    <p><strong>Bazar del Sabado, 6 years transforming entrepreneurs!</strong>
+                        <br>
+                        Hundreds of entrepreneurs have taken great steps thanks to this Chamber project.
+                        <br>
+                        Celebrate with us this June its sixth anniversary.
+                    </p>
+                </section>
+
+                <div class="box-wrapper">
+                    <section class="box1">
+                        <p>spotlight1</p>
+                    </section>
+                    <section class="box2">
+                        <p>spotlight2</p>
+                    </section>
+                    <section class="box3">
+                        <p>spotlight3</p>
+                    </section>
+                </div>
+
+
+                <section class="placeholderjoin">
+                    <a href="join.html"> <button class="button">Join us</button> </a>
+                    <p>Discover how to join and be part of this family.</p>
+                </section>
+            </div>
         </main>
 
 
@@ -118,7 +130,6 @@
                 <p class="f">Location Map</p>
             </section>
 
-            <div class="line">_______________________________________________</div>
             <section class="personalinfo">
                 <div class="copy" id="copyright">&copy; 2022 Cortes Area Chamber</div>
                 <p> Ariana Manley </p>
