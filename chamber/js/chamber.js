@@ -40,7 +40,7 @@ const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
 );
 datefield.innerHTML = `<em>${fulldate}</em>`;
 
-//banner
+//Hamburguer Button
 
 function toggleMenu() {
   document.getElementById("primarynav").classList.toggle("open");
@@ -49,7 +49,7 @@ function toggleMenu() {
 
 const x = document.getElementById("hamburgerbtn");
 x.onclick = toggleMenu;
-
+//banner
 const dayofweek = new Date().getDay();
 let bannernot = document.getElementById("banner");
 if (dayofweek == 1 || dayofweek == 2) {

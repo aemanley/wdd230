@@ -166,8 +166,18 @@
     grid-row: unset;
     grid-column: unset;
   }
+/*directory page*/
+  .cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+
 }
 
 .personalinfo {
   padding: 0.5rem;
 }
+
+
+

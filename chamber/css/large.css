@@ -10,7 +10,7 @@
 
   nav {
     grid-column: 3;
-    background-color: #a2d4f2;
+
   }
   #placeholder {
     grid-template-columns: 1fr 2fr 1fr;
@@ -194,5 +194,9 @@
     margin-right: 50px;
     text-align: justify;
     font-size: 16px;
+  }
+
+  .cards{
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
