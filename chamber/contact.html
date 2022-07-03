@@ -11,22 +11,22 @@
     <link rel="stylesheet" href="css/large.css">
     <link rel="shortcut icon" href="images/favicon.ico">
 
-    
+
 
     <title>Cortes Area Chamber of Commerce</title>
 
 </head>
 
 <body>
-    <div class="page">
-       
+    
 
-        <header >
+        <header>
             <img class="logo" src="images/3669397_business_ic_icon.png" alt="logo" width="50">
             <h1> Cortes Area <br>Chamber of Commerce</h1>
             <picture>
-               <a href="https://www.facebook.com/"><img src="images/faceicon.png" alt="facebook icon" width="25" ></a> 
-                <a href="https://www.instagram.com/"><img src="images/instaicon.png" alt="instagram icon" width="25"></a>
+                <a href="https://www.facebook.com/"><img src="images/faceicon.png" alt="facebook icon" width="25"></a>
+                <a href="https://www.instagram.com/"><img src="images/instaicon.png" alt="instagram icon"
+                        width="25"></a>
             </picture>
 
 
@@ -35,9 +35,9 @@
                 <ul id="primarynav">
                     <li> <a href="index.html">Home</a></li>
                     <li> <a href="discover.html">Discover</a></li>
-                    <li> <a href="#">Directory</a></li>
+                    <li> <a href="directory.html">Directory</a></li>
                     <li> <a href="join.html">Join</a></li>
-                    <li> <a href="contact.html">Contact</a></li>
+                    <li> <a href="#">Contact</a></li>
                 </ul>
             </nav>
 
@@ -48,14 +48,45 @@
 
 
         </header>
-
         <main>
-            <div class="cards">
 
+
+<picture>
+    <source srcset="images/contactlarge.jpg" media="(min-width: 1000px)">
+    <source srcset="images/contactmedium.jpg" media="(min-width: 650px)">
+    <source srcset="images/csmall.jpg" media="(min-width:100px)">
+
+            <img src="images/contact1.jpg" alt="" >
+</picture>
+
+
+
+            <div id="contactnow">
+                <section class="communicate">
+                    <h2>¡Communicate Today!</h2> <br>
+                    <p>Col. Las Brisas 22 y 24 calle entre 1 y 4ta. avenida Junior.</p>
+                    <p> Telephone: +504 2561-6100</p>
+                    <p> Fax: +504 2566-0344</p>
+                </section>
+
+                <section class="message">
+                    <h2>Send Us a Message</h2>
+                    <form action="thankyou.html" method="get">
+
+                    <input type="text" id="input1" name="name" placeholder="Name" required><br>
+                    <input type="tel" id="input1" name="phone" placeholder="Phone Number" required><br>
+                    <input type="email" id="input1" name="email" placeholder="Email" required><br>
+                    <input type="text" id="input1" name="city" placeholder="City" required><br>
+                    <input type="text" id="input2" name="message" placeholder="Message here!" required><br>
+                    <input class="button" type="submit" value="Send Message">
+                </section>
             </div>
+        </form>
+
+
+
 
         </main>
-
         <footer>
             <section>
                 <img src="images/3669397_business_ic_icon.png" alt="logo" width="80">
@@ -76,10 +107,13 @@
                 <p>WDD 230 Project</p>
                 <p id="updated"> Last updated</p>
             </section>
+
+
         </footer>
-       
-        <script src="js/directory.js"></script>
-       
-        </body>
-        </div>
-        </html>
+
+        <script src="js/chamber.js"></script>
+
+</body>
+</div>
+
+</html>
