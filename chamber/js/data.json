@@ -1,0 +1,77 @@
+{
+    "business": [
+        {
+            "name": "Diunsa",
+            "adress": " Plaza Pedregal, San Pedro Sula, Honduras  ",
+            "phonenumber": " +(504) 2516-7999 ",
+            "websiteurl": "https://www.diunsa.hn/ ",
+            "membershiplevel": "Silver Membership",
+            "imageurl": "images/diunsalogo.png"
+        },
+        {
+            "name": " Studypool ",
+            "adress": "Mountain View, CA",
+            "phonenumber": "+(504) 2457-1461 ",
+            "websiteurl": "https://www.studypool.com/",
+            "membershiplevel": " Non Profit Membership ",
+            "imageurl": "images/studylogo.png "
+        },
+        {
+            "name": " Dole Food Company ",
+            "adress": "Colonia Higueral, contiguo a Camara de Comercio Expocentro ",
+            "phonenumber": " +(504) 2443-1001 ",
+            "websiteurl": "https://www.dole.com/en",
+            "membershiplevel": " Gold Membership ",
+            "imageurl": "images/dolelogoo.png "
+        },
+        {
+            "name": "Seagro ",
+            "adress": "10 ave. 13 y 14 calle SO, Barrio Paz Barahona, San Pedro Sula, Cortés.",
+            "phonenumber": "  +(504) 2558-9657 ",
+            "websiteurl": "https://seagro.hn/ ",
+            "membershiplevel": "Gold Membership ",
+            "imageurl": "images/seagrologo.png "
+        },
+        {
+            "name": " Abarrotes Lupita ",
+            "adress": " 6 calle 8 avenida barrio concepción edificio de Comercial la Estrella",
+            "phonenumber": " +(504) 8790-9071 ",
+            "websiteurl": "https://www.facebook.com/AbarroteriaBelen/ ",
+            "membershiplevel": " Non Profit Membership ",
+            "imageurl": "images/aborroterialogo.png "
+        },
+        {
+            "name": " Cervecería Hondureña ",
+            "adress": "Blvd. del Norte, Carretera salida a Puerto Cortés San Pedro Sula, Honduras, ",
+            "phonenumber": " +(504) 2545-1111",
+            "websiteurl": " https://www.cerveceriahondurena.com/",
+            "membershiplevel": " Gold Membership ",
+            "imageurl": "images/cervecerialogo.png "
+        },
+        {
+            "name": "Lacthosa ",
+            "adress": "San Pedro Sula, Honduras ",
+            "phonenumber": " +(504) 2564-0000 ",
+            "websiteurl": "https://www.lacthosa.com/ ",
+            "membershiplevel": " Silver Membership",
+            "imageurl": "images/lacthosalogo.png "
+        },
+        {
+            "name": " Casa Alianza",
+            "adress": "Calle Morelos, Avenida Cervantes, Frente Optica Matamoros Tegucigalpa, Hondura ",
+            "phonenumber": " +(504) 2237-3623",
+            "websiteurl": " http://www.casa-alianza.org.hn",
+            "membershiplevel": "Bronze Membership",
+            "imageurl": "images/casalogo.png "
+        },
+
+        {
+            "name": "Organizacion para las Naciones Unidas para la alimentacion y la agricultura ",
+            "adress": "Col. Palmira, Ave. Juan Lindo, Sendero Guyana, Casa 2450 Tegucigalpa, Honduras ",
+            "phonenumber": "+(504) 2236-7321 ",
+            "websiteurl": "http://www.fao.org.hn ",
+            "membershiplevel": "Bronze Membership",
+            "imageurl": "images/faologo.png "
+        }
+    ]
+}
