@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400&display=swap"
+        rel="stylesheet">
+
+
+    <title>The Temple Inn & Suites</title>
+</head>
+
+<body>
+    <div class="page">
+        <header>
+            <nav class="nav-bar">
+                <div class="nav-branding">
+                    <img src="images/templelogo.png" alt="Temple Inn Logo" width="60">
+                    <h1>Temple Inn & Suites</h1>
+                </div>
+
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link"> Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link"> Temple</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Reservation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link"> Services</a>
+                    </li>
+                </ul>
+
+                <div class="booknow">
+                    <a href="reservation.html">Book Now</a>
+                </div>
+
+                <div class="hamburguer">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+
+
+            </nav>
+        </header>
+
+        <main>
+            <picture>
+                <img src="images/receptionphoto.jpg" alt="Reception Photo" width="100%">
+            </picture>
+
+            <div class="basicinfo-container">
+                <p class="basicinfo-text">The Temple Inn & Suites company caters to temple workers, patrons, and
+                    their
+                    families by providing specialized services and accommodations that meet the needs of those
+                    patrons.
+                    <br>
+                    The hotel accommodations and services are available to anyone willing to abide by the terms and
+                    policies outlined by the company.
+                </p>
+            </div>
+
+
+            <div class="campinastemple-container">
+                <picture>
+                    <img src="images/Campinastemple.jpg" alt="Campinas Temple" width="100%">
+                </picture>
+
+
+                <div class="campinasinfo">
+                    <h2>Campinas Brazil Temple</h2>
+
+                    <h3>Address</h3>
+                    <p>Rua James Esdras Faust, 400
+                        Barrio Notre Dame
+                        CEP 13092-820 Campinas - SP, Brazil,</p>
+                    <h3>Telephone</h3>
+                    <p>(55) 19-2102-5800</p>
+                    <h3>Services</h3>
+                    <p>Clothing rental available<br>
+                        Cafeteria available<br>
+                        Patron housing available<br>
+                        Distribution center nearby</p>
+                </div>
+
+                <div class="campinascurrentcondition">
+                    <h2>Today's Forecast for Campinas, São Paulo, Brazil </h2>
+                    <h3>Temperature </h3>
+                    <p>Is <span id="current-temp"></span>&deg;F</p>
+                    </p>
+                    <h3>Condition</h3>
+                    <p>Is <span id="current-condition"></span></p>
+                    <h3>Humidity</h3>
+                    <p>Is <span id="current-humidity"></span>%</p>
+                </div>
+
+            </div>
+
+
+            <div class="forecastinfo-container">
+
+                <div class="individualforecast-container">
+                    <h3 id="demo"></h3>
+                    <h4 id="demo1"></h4>
+                    <br>
+                    <p> Max <span id="max-temp"></span>&deg;</p>
+                    <p> Min <span id="min-temp"></span>&deg;</p>
+                    <figure>
+                        <img src="https://openweathermap.org" alt="broken" id="weather-icon" width="80">
+                    </figure>
+                    <p><span id="weather-description"></span></p>
+                </div>
+
+                <div class="individualforecast-container">
+                    <h3 id="tomorrow2"></h3>
+                    <h4 id="tomorrow"></h4>
+                    <br>
+                    <p>Max <span id="max-temp2"></span>&deg;</p>
+                    <p>Min <span id="min-temp2"></span>&deg;</p>
+                    <figure>
+                        <img src="https://openweathermap.org" alt="broken" id="weather-icon2" width="80">
+                    </figure>
+                    <p><span id="weather-description2"></span></p>
+                </div>
+
+                <div class="individualforecast-container">
+
+                    <h3 id="tomorrow4"></h3>
+                    <h4 id="tomorrow3"></h4>
+                    <br>
+                    <p>Max <span id="max-temp3"></span>&deg;</p>
+                    <p>Min <span id="min-temp3"></span>&deg;</p>
+                    <figure>
+                        <img src="https://openweathermap.org" alt="broken" id="weather-icon3" width="80">
+                    </figure>
+                    <p><span id="weather-description3"></span></p>
+                </div>
+
+            </div>
+        </main>
+
+
+        <footer>
+            <div class="nav-branding">
+                <img src="images/templelogo.png" alt="Temple Inn Logo" width="50">
+                <h4>Temple Inn & Suites</h4>
+            </div>
+
+            <div>
+                <p> Copyright</p>
+            </div>
+
+<div class="socialicons">
+    <img src="images/faclogo.png" alt="facebook logo" width="25" >
+    <img src="images/instalogo.png" alt="instagram logo" width="25">
+   
+</div>
+
+
+        </footer>
+
+        <script src="js/base.js"></script>
+        <script src="js/forecast.js"></script>
+
+    </div>
+</body>
+
+</html>

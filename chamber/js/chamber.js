@@ -49,6 +49,7 @@ function toggleMenu() {
 
 const x = document.getElementById("hamburgerbtn");
 x.onclick = toggleMenu;
+
 //banner
 const dayofweek = new Date().getDay();
 let bannernot = document.getElementById("banner");
