@@ -84,4 +84,85 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: none;
   }
+
+  /*Reservation Page*/
+  .booknowform-container {
+    margin-right: 100px;
+    margin-left: 100px;
+  }
+  .form2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #name,
+  #phone,
+  #email,
+  #arrival,
+  #departure,
+  #room,
+  #country,
+  #message {
+    width: 75%;
+  }
+
+  .name-container {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .phone-container {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  .email-container {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .country-container {
+    grid-column: 1;
+    grid-row: 4;
+  }
+
+  .location-container {
+    grid-column: 1;
+    grid-row: 5;
+  }
+
+  .arrivaldate-container {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .departuredate-container {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  .room-container {
+    grid-column: 2;
+    grid-row: 3;
+  }
+
+  .roomtype-container {
+    grid-column: 2;
+    grid-row: 4;
+  }
+
+  .message-container {
+    grid-column: 2;
+    grid-row: 5;
+  }
+  .sendbutton-container {
+    grid-column: 2;
+    grid-row: 6;
+  }
+  .sendbutton {
+    margin: 10px;
+    margin-left: 90px;
+    border: none;
+    width: 50%;
+  }
 }
