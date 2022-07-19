@@ -5,7 +5,6 @@
     margin-bottom: 0px;
   }
 
- 
   .campinasinfo {
     border-right: #a6756a solid;
   }
@@ -38,8 +37,7 @@
     grid-template-rows: 1fr;
   }
 
-
-  .contactinfocontainer{
+  .contactinfocontainer {
     align-items: center;
   }
   .copyright {
@@ -47,7 +45,43 @@
     grid-column: 1/3;
   }
 
-  .booknow{
+  .booknow {
     padding: 5px;
+  }
+
+  /* Attributions Page*/
+
+  .attributions {
+    text-align: center;
+  }
+
+  .attributions li {
+    list-style-position: inside;
+  }
+
+  /*Services Page*/
+
+  .specializedservices-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .moreservices-container {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: none;
+  }
+
+  .learnmore-button {
+    color: #f2f2f2;
+    background-color: #a6756a;
+    width: 20%;
+    text-align: center;
+    padding: 1rem;
+    align-self: center;
+  }
+  /* ReceptionServicePage*/
+  .receptionservice-container {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: none;
   }
 }
