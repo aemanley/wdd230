@@ -1,4 +1,4 @@
-@media (min-width: 768px) and (max-width: 1700px) {
+@media (min-width: 768px) and (max-width: 2000px) {
   .campinastemple-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
