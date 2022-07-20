@@ -1,48 +1,36 @@
 {
-    "temple": [
+    "temples": [
         {
             "name": " São Paulo Brazil Temple",
             "adress": "Av. Prof. Francisco Morato, 2390 Caxingui 05512-300 São Paulo - SP, Brazil ",
             "telephone": "(55) 11-3723-7600 ",
-            "services": " Clothing rental available, No cafeteria available,Patron housing available ,Distribution center nearby",
-            "ordinance schedule": "All ordinances are available by appointment only",
-            "temple closure schedule": " Monday 1 August 2022 - Monday  15 August 2022 Wednesday 7 September 2022 Saturday 1 October 2022 Saturday 24 December 2022 Saturday 31 December 2022 "
+            "services": " Clothing rental available<br>No cafeteria available<br>Patron housing available <br>Distribution center nearby",
+            "ordinanceschedule": "All ordinances are available by appointment only",
+            "templeclosureschedule": " Monday 1 August 2022 - Monday  15 August 2022 <br>Wednesday 7 September 2022 <br>Saturday 1 October 2022<br> Saturday 24 December 2022 <br>Saturday 31 December 2022 "
         },
         {
             "name": "Rio de Janeiro Brazil Temple ",
             "adress": "Avenida Das Américas, Nº 9005 CEP 22793-083 Barra Da Tijuca - Rio De Janeiro - RJ Brazil ",
             "telephone": "(55) 21-3906-4600 ",
-            "services": " No clothing rental available, No cafeteria available, Patron housing available ,No distribution center nearby",
-            "ordinance schedule": " All ordinances are available by appointment only.",
-            "temple closure schedule": "Saturday, 1 October 2022 - Sunday, 2 October 2022, Monday, 17 October 2022 - Monday, 31 October 2022 ,Saturday, 24 December 2022 - Sunday, 25 December 2022,Saturday, 31 December 2022 - Sunday, 1 January 2023"
+            "services": " No clothing rental available<br> No cafeteria available<br> Patron housing available <br>No distribution center nearby",
+            "ordinanceschedule": " All ordinances are available by appointment only.",
+            "templeclosureschedule": "Saturday, 1 October 2022 - Sunday, 2 October 2022<br> Monday, 17 October 2022 - Monday, 31 October 2022 <br>Saturday, 24 December 2022 - Sunday, 25 December 2022<br>Saturday, 31 December 2022 - Sunday, 1 January 2023"
         },
-        
         {
             "name": "Curitiba Brazil Temple ",
             "adress": " Rua Deputado Heitor Alencar Furtado, 3641 Mossunguê 81200-110 Curitiba - PR, Brazil,",
             "telephone": "(55) 41-3204-6650 ",
-            "services": "No clothing rental available
-            No cafeteria available
-            No patron housing available
-            Distribution center nearby ",
-            "ordinance schedule": "All ordinances are available by appointment only.",
-            "temple closure schedule": "Monday, 11 July 2022 - Monday, 19 September 2022
-            Saturday, 1 October 2022
-            Saturday, 24 December 2022
-            Saturday, 31 December 2022"
+            "services": "No clothing rental available<br> No cafeteria available<br>No patron housing available<br> Distribution center nearby ",
+            "ordinanceschedule": "All ordinances are available by appointment only.",
+            "templeclosureschedule": "Monday, 11 July 2022 - Monday, 19 September 2022<br>Saturday, 1 October 2022<br>Saturday, 24 December 2022<br>Saturday, 31 December 2022"
         },
-        
         {
             "name": "Porto Alegre Brazil Temple ",
             "adress": "Rua General Salvador Pinheiro, 50 Vila Jardim 91320-240 Porto Alegre - RS, Brazil ",
             "telephone": "(55) 51-2104-2700 ",
-            "services": "No clothing rental available
-            No cafeteria available
-            Patron housing available
-            Distribution center nearby ",
-            "ordinance schedule": "All ordinances are available by appointment only.",
-            "temple closure schedule": "Monday, 1 August 2022 - Monday, 2 January 2023"
+            "services": "No clothing rental available<br>No cafeteria available<br>Patron housing available<br>Distribution center nearby ",
+            "ordinanceschedule": "All ordinances are available by appointment only.",
+            "templeclosureschedule": "Monday, 1 August 2022 - Monday, 2 January 2023"
         }
-        
     ]
 }
