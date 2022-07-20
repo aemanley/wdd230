@@ -83,8 +83,14 @@ a {
   font-family: "Roboto Slab", serif;
 }
 
+.bigpicture{
+  width: 100%;
+}
 .campinastemple-container {
   margin-bottom: 20px;
+}
+.campinastemple-container img{
+  width: 100%;
 }
 .campinasinfo {
   font-family: "Roboto Slab", serif;
@@ -306,7 +312,7 @@ h4 {
   justify-content: center;
   padding-bottom: 30px;
 }
-#input1 {
+.input1 {
   padding: 10px;
   border-radius: 10px;
   margin: 10px;
@@ -351,7 +357,7 @@ h4 {
 #email,
 #arrival,
 #departure,
-#room,
+#room,#room1,#room2,#room3,
 #country,
 #message {
   border-radius: 10px;
@@ -420,4 +426,56 @@ h4 {
   margin-left: 20%;
   border: none;
   width: 50%;
+}
+
+/*Temple Page*/
+
+.basicinfo-text2 {
+  color: #f2fef2;
+  padding: 40px;
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+  background-color: #474f59;
+}
+.cards {
+  text-align: left;
+  padding: 30px;
+}
+.cards section {
+  border: #474f59 solid 1px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 15px;
+  font-family: "Roboto Slab", serif;
+}
+.cards h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.cards img {
+  display: block;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.cards h3 {
+  padding: 1rem;
+  color: #474f59;
+}
+
+.cards p {
+  padding-left: 1rem;
+}
+
+
+/*Thank you Page*/
+.thanks {
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+  margin: 1rem;
+  margin-bottom: 30px;
+  padding: 70px;
+  font-size: 15px;
 }

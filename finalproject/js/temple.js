@@ -15,31 +15,43 @@ async function getTemples() {
 function buildTemplesCards(data) {
   data.temples.forEach((temples) => {
     let card = document.createElement("section");
-    let h2 = document.createElement("h2");
+    let name = document.createElement("h2");
+    let cih = document.createElement("h3");
     let ad = document.createElement("p");
     let ph = document.createElement("p");
+    let sh = document.createElement("h3");
     let ser = document.createElement("p");
+    let sch = document.createElement("h3");
     let ord = document.createElement("p");
+    let csch = document.createElement("h3");
     let tcs = document.createElement("p");
     let img = document.createElement("img");
 
-    h2.innerHTML = `${temples.name}`;
+    name.innerHTML = `${temples.name}`;
+    cih.innerHTML = `${temples.contactinfoh3}`;
     ad.innerHTML = `${temples.adress}`;
     ph.innerHTML = `${temples.telephone}`;
+    sh.innerHTML = `${temples.servicesh3}`;
     ser.innerHTML = `${temples.services}`;
+    sch.innerHTML = `${temples.schedulesh3}`;
     ord.innerHTML = `${temples.ordinanceschedule}`;
+    csch.innerHTML = `${temples.closeschedulesh3}`;
     tcs.innerHTML = `${temples.templeclosureschedule}`;
     img.setAttribute("src", temples.image);
-   
 
-    card.append(h2);
+    card.append(name);
     cards.append(card);
-    cards.append(ad);
-    cards.append(ph);
-    cards.append(ser);
-    cards.append(ord);
-    cards.append(tcs);
-    cards.append(img);
+    card.append(img);
+    card.append(cih);
+    card.append(ad);
+    card.append(ph);
+    card.append(sh);
+    card.append(ser);
+    card.append(sch);
+    card.append(ord);
+    card.append(csch);
+    card.append(tcs);
+   
   });
 }
 getTemples();

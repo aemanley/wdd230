@@ -100,7 +100,7 @@
   #email,
   #arrival,
   #departure,
-  #room,
+  #room,#room1,#room2,#room3,
   #country,
   #message {
     width: 75%;
@@ -164,5 +164,12 @@
     margin-left: 90px;
     border: none;
     width: 50%;
+  }
+
+  .cards {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
   }
 }
